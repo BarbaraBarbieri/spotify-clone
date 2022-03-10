@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 120px;
+}
+
+#header {
+    background-color: #000000;
+}
+
+#header .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+
+    padding: 15px 15%;
+    box-sizing: border-box;
+}
+
+#header .navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+#header .navbar-item {
+    white-space: nowrap;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+#header .navbar-bar {
+    padding: 0 15px;
+    box-sizing: border-box;
+
+    color: white;
+}
+
+#header .navbar-item:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100vh;
+
+    padding: 0 10%;
+    box-sizing: border-box;
+
+    background-image: url("images/spotify_showcase.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+}
+
+#main .main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+    text-align: center;
+}
+
+#main .main-title {
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+}
+
+#main .main-subtitle {
+    font-size: 18px;
+    font-weight: 100;
+    color: white;
+}
+
+#main .main-button {
+    margin-top: 10px;
+
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 600;
+    color: white;
+
+    padding: 15px 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: #1db954;
+}
+
+#main .main-button:hover {  
+    background-color: #1ed760;
+    cursor: pointer;
+}
+
+#footer {
+    background-color: black;
+}
+
+#footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    padding: 60px 15%;
+    box-sizing: border-box;
+}
+
+#footer .about {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+#footer .about-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+#footer .info {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 15px;
+    gap: 70px;
+}
+
+#footer .infobox {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 23px;
+}
+
+#footer .info-title {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    color: #929491;
+}
+
+#footer .info-item {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+#footer .info-item:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#footer .social {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+#footer .social i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 40px;
+    height: 40px;
+    
+    font-size: 22px;
+    color: white;
+
+    border: none;
+    border-radius: 50px;
+    background-color: #222327;
+}
+
+#footer .social i:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#footer .legal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+#footer .policy {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+#footer .policy-item {
+    font-size: 11px;
+    color: darkgray;
+}
+
+#footer .policy-item:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#footer .rights {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+
+    white-space: nowrap;
+}
+
+#footer .rights-item {
+    font-size: 11px;
+    color: darkgray;
+}
+
+#footer .rights-country {
+    font-size: 11px;
+    color: darkgray;
+}
+
+#footer .rights-country:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
